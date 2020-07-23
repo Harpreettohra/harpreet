@@ -161,7 +161,7 @@ ImageView imago;
             Toast.makeText( this, "something gone wrong", Toast.LENGTH_SHORT ).show();
         }
 
-6
+
 
     }
 
