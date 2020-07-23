@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signup">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/gradient"
+
+        >
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/ic_undraw_mindfulness_scgo"/>
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Email Id"
+        android:textColorHint="#979797"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="114dp"
+        android:layout_marginTop="30dp"
+        android:strokeColor="#3F3D56"
+        />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textColorHint="#979797"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="184dp"
+        android:layout_marginTop="10dp"
+
+        android:strokeColor="#3F3D56"
+        />
+        <EditText
+            android:id="@+id/cpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="Confirm Password"
+            android:textColorHint="#979797"
+            tools:layout_editor_absoluteX="93dp"
+            tools:layout_editor_absoluteY="184dp"
+            android:layout_marginTop="10dp"
+
+            android:strokeColor="#3F3D56"
+            />
+        <EditText
+            android:id="@+id/number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="Contact Number"
+            android:textColorHint="#979797"
+            tools:layout_editor_absoluteX="93dp"
+            tools:layout_editor_absoluteY="184dp"
+            android:layout_marginTop="10dp"
+
+            android:strokeColor="#3F3D56"
+            />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/login"
+        android:text="SIGN UP"
+        android:background="@drawable/shapes"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already registered?"
+
+            android:textColor="#909090"
+            />
+        <TextView
+
+            android:id="@+id/logIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login here!"
+            android:textSize="20dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#3F3D56"
+            android:clickable="true"
+             />
+    </LinearLayout>
+    </LinearLayout>>
+</androidx.constraintlayout.widget.ConstraintLayout>

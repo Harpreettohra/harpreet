@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mantras">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient"
+        android:orientation="vertical"
+        >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center">
+    <ImageView
+        android:id="@+id/backm"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_backburger"
+        />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mantras"
+            tools:layout_editor_absoluteX="181dp"
+            tools:layout_editor_absoluteY="340dp"
+            tools:ignore="MissingConstraints"
+            android:textColor="#3F3D56"
+            android:textSize="40dp"
+            android:layout_marginLeft="60dp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
+
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:background="@drawable/shapes4"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fadeScrollbars="true"
+                >
+
+
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+
+                >
+
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AUM or OM"
+                    tools:layout_editor_absoluteX="181dp"
+                    tools:layout_editor_absoluteY="340dp"
+                    tools:ignore="MissingConstraints"
+                    android:textColor="#3F3D56"
+                    android:textSize="22dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    />
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AUM is the basic sound of the universe, so by chanting it, we are symbolically and physically acknowledging our connection to nature and all other living beings."
+                    tools:layout_editor_absoluteX="181dp"
+                    tools:layout_editor_absoluteY="340dp"
+                    tools:ignore="MissingConstraints"
+                    android:textColor="#E63F3D56"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    />
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#EFEFEF"
+                    android:layout_marginTop="10dp"/>
+
+
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hum Dum Har Har"
+                    tools:layout_editor_absoluteX="181dp"
+                    tools:layout_editor_absoluteY="340dp"
+                    tools:ignore="MissingConstraints"
+                    android:textColor="#3F3D56"
+                    android:textSize="22dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    />
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Opens the heart chakra"
+                    tools:layout_editor_absoluteX="181dp"
+                    tools:layout_editor_absoluteY="340dp"
+                    tools:ignore="MissingConstraints"
+                    android:textColor="#E63F3D56"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    />
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#EFEFEF"
+                    android:layout_marginTop="10dp"/>
+
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Humee Hum Brahm Hum"
+                    tools:layout_editor_absoluteX="181dp"
+                    tools:layout_editor_absoluteY="340dp"
+                    tools:ignore="MissingConstraints"
+                    android:textColor="#3F3D56"
+                    android:textSize="22dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    />
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="It fixes the identity into its true reality"
+                    tools:layout_editor_absoluteX="181dp"
+                    tools:layout_editor_absoluteY="340dp"
+                    tools:ignore="MissingConstraints"
+                    android:textColor="#E63F3D56"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    />
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#EFEFEF"
+                    android:layout_marginTop="10dp"/>
+
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OM AMI DEWA HRIH"
+                    tools:layout_editor_absoluteX="181dp"
+                    tools:layout_editor_absoluteY="340dp"
+                    tools:ignore="MissingConstraints"
+                    android:textColor="#3F3D56"
+                    android:textSize="22dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    />
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Help overcome all obstacles"
+                    tools:layout_editor_absoluteX="181dp"
+                    tools:layout_editor_absoluteY="340dp"
+                    tools:ignore="MissingConstraints"
+                    android:textColor="#E63F3D56"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    />
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#EFEFEF"
+                    android:layout_marginTop="10dp"/>
+
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OM Namah Shivaya"
+                    tools:layout_editor_absoluteX="181dp"
+                    tools:layout_editor_absoluteY="340dp"
+                    tools:ignore="MissingConstraints"
+                    android:textColor="#3F3D56"
+                    android:textSize="22dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    />
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="I honor the God Within"
+                    tools:layout_editor_absoluteX="181dp"
+                    tools:layout_editor_absoluteY="340dp"
+                    tools:ignore="MissingConstraints"
+                    android:textColor="#E63F3D56"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    />
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#EFEFEF"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sat Nam Wahe Guru"
+                    tools:layout_editor_absoluteX="181dp"
+                    tools:layout_editor_absoluteY="340dp"
+                    tools:ignore="MissingConstraints"
+                    android:textColor="#3F3D56"
+                    android:textSize="22dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    />
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Non-circumstantial truth in residing in ecstacy"
+                    tools:layout_editor_absoluteX="181dp"
+                    tools:layout_editor_absoluteY="340dp"
+                    tools:ignore="MissingConstraints"
+                    android:textColor="#E63F3D56"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    />
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#EFEFEF"
+                    android:layout_marginTop="10dp"/>
+
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sa Ta Na Ma Ra Ma Da Sa "
+                    tools:layout_editor_absoluteX="181dp"
+                    tools:layout_editor_absoluteY="340dp"
+                    tools:ignore="MissingConstraints"
+                    android:textColor="#3F3D56"
+                    android:textSize="22dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    />
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="This is to make the impossible possible"
+                    tools:layout_editor_absoluteX="181dp"
+                    tools:layout_editor_absoluteY="340dp"
+                    tools:ignore="MissingConstraints"
+                    android:textColor="#E63F3D56"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    />
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#EFEFEF"
+                    android:layout_marginTop="10dp"/>
+
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wah Yantee"
+                    tools:layout_editor_absoluteX="181dp"
+                    tools:layout_editor_absoluteY="340dp"
+                    tools:ignore="MissingConstraints"
+                    android:textColor="#3F3D56"
+                    android:textSize="22dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    />
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Awakens intuition "
+                    tools:layout_editor_absoluteX="181dp"
+                    tools:layout_editor_absoluteY="340dp"
+                    tools:ignore="MissingConstraints"
+                    android:textColor="#E63F3D56"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    />
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#EFEFEF"
+                    android:layout_marginTop="10dp"/>
+
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="On Vajrapani Hum"
+                    tools:layout_editor_absoluteX="181dp"
+                    tools:layout_editor_absoluteY="340dp"
+                    tools:ignore="MissingConstraints"
+                    android:textColor="#3F3D56"
+                    android:textSize="22dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    />
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Budhist"
+                    tools:layout_editor_absoluteX="181dp"
+                    tools:layout_editor_absoluteY="340dp"
+                    tools:ignore="MissingConstraints"
+                    android:textColor="#E63F3D56"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    />
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#EFEFEF"
+                    android:layout_marginTop="10dp"/>
+
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sabbe satta Sukhi Hontu"
+                    tools:layout_editor_absoluteX="181dp"
+                    tools:layout_editor_absoluteY="340dp"
+                    tools:ignore="MissingConstraints"
+                    android:textColor="#3F3D56"
+                    android:textSize="22dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    />
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Buddhist phrase: May all beings be well and happy"
+                    tools:layout_editor_absoluteX="181dp"
+                    tools:layout_editor_absoluteY="340dp"
+                    tools:ignore="MissingConstraints"
+                    android:textColor="#E63F3D56"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    />
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#EFEFEF"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ra Ra Ra Ra Ma Ma Ma Ma Rama Rama Rama Rama Sa Ta Na Ma"
+                    tools:layout_editor_absoluteX="181dp"
+                    tools:layout_editor_absoluteY="340dp"
+                    tools:ignore="MissingConstraints"
+                    android:textColor="#3F3D56"
+                    android:textSize="22dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    />
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="provides the space to utilize creativity within our environment"
+                    tools:layout_editor_absoluteX="181dp"
+                    tools:layout_editor_absoluteY="340dp"
+                    tools:ignore="MissingConstraints"
+                    android:textColor="#E63F3D56"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    />
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#EFEFEF"
+                    android:layout_marginTop="10dp"/>
+
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Om Amideva Hrih"
+                    tools:layout_editor_absoluteX="181dp"
+                    tools:layout_editor_absoluteY="340dp"
+                    tools:ignore="MissingConstraints"
+                    android:textColor="#3F3D56"
+                    android:textSize="22dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    />
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Protects from dangers and ostacles"
+                    tools:layout_editor_absoluteX="181dp"
+                    tools:layout_editor_absoluteY="340dp"
+                    tools:ignore="MissingConstraints"
+                    android:textColor="#E63F3D56"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    />
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#EFEFEF"
+                    android:layout_marginTop="10dp"/>
+
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Om Shree Matre Namah"
+                    tools:layout_editor_absoluteX="181dp"
+                    tools:layout_editor_absoluteY="340dp"
+                    tools:ignore="MissingConstraints"
+                    android:textColor="#3F3D56"
+                    android:textSize="22dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    />
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="I bow to the Mother. Hail to the Golden Mother"
+                    tools:layout_editor_absoluteX="181dp"
+                    tools:layout_editor_absoluteY="340dp"
+                    tools:ignore="MissingConstraints"
+                    android:textColor="#E63F3D56"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    />
+            </TableLayout>
+            </ScrollView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
